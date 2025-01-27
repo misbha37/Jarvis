@@ -13,7 +13,7 @@ const DATABASE_URL = process.env.DATABASE_URL === undefined ? "./database.db" : 
 
 module.exports = {
   VERSION: require('./package.json').version,
-  BAN_CHATS: process.env.BAN_CHATS || "",
+  BAN_CHATS: process.env.BAN_CHATS || "Jarvis_xx01_6uvv_3wuu_0451_wx23_3u68_w5xz_v721",
   PORT: process.env.PORT || 8000,
   PM_BLOCKER: toBool(process.env.PM_BLOCKER || "false"),
   PM_BLOCKER_MSG: process.env.PM_BLOCKER_MSG || "```Pm blocker active on this chat!!```",
